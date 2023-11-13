@@ -1,0 +1,94 @@
+@import "font-awesome-sprockets";
+@import "font-awesome";
+*{
+    transition: .2s linear;
+    color: white;
+}
+body{
+    background-color:rgb(48, 32, 53) ;
+}
+header{
+    top:0;right:0;left:0;
+    display:flex;
+    text-align: center;
+    position: fixed;
+    background-color: rgb(48, 32, 53);
+    align-items: center;
+}
+header .name{
+    margin-left:20px;
+}
+header .navbar{
+    margin-left: 600px;
+    font-size: 25px;
+}
+header .navbar a{
+    margin-right: 15px;
+}
+header .navbar a:hover{
+    border-bottom: 1px solid white;
+    padding-bottom: .4rem;
+}
+.home{
+    background: linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5) ),url(https://e1.pxfuel.com/desktop-wallpaper/712/904/desktop-wallpaper-most-beautiful-travel-destinations-tourist-place.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+.home h1{
+    padding-top: 40px;
+    text-align: center;
+    font-family: "Lucida Handwriting", cursive;
+    font-size: 60px;
+}
+.home .content{
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.home .content{
+    text-align: center;
+}
+.home .content .left{
+    margin:auto;
+}
+.home .content .left button{
+    margin-top: 30px;
+    padding:20px;
+    font-size: 17px;
+    border: none;
+    border-radius: 2rem;
+    color: black;
+}
+.home .content .left button:hover{
+    background-color: black;
+    color:white;
+}
+.home .content .left .con{
+    margin-top: 30px;
+}
+.home .content .left .con a{
+    margin-right: 40px;
+    font-size: 30px;
+}
+.home .content .left .con a i:hover{
+    color: rgb(48, 32, 53);
+    font-size: 40px ;
+}
+.home .content .right{
+    display: flex;
+    margin: auto;
+}
+.home .content .right .photo{
+    display: inline-block;
+    margin-left: 20px;
+}
+.home .content .right .photo img{
+    width:250px;
+    height: 300px;
+    border-radius: 12%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.home .content .right .photo img:hover{
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19); 
+}
